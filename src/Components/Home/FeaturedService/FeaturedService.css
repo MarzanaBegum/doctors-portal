@@ -1,0 +1,9 @@
+.card-body h2 {
+  color: #3a4256;
+}
+.learnMore-btn {
+  border: none;
+  background-image: linear-gradient(120deg, rgb(125, 221, 125), #1cc7c1);
+  padding: 10px 30px;
+  color: white;
+}

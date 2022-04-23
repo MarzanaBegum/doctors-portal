@@ -1,0 +1,29 @@
+.contact {
+  background-image: url("../../../images/appointment-bg.png");
+  position: relative;
+  z-index: 1;
+}
+.contact::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(12, 11, 27);
+  opacity: 0.9;
+  z-index: -1;
+}
+.section-header h5 {
+  color: #19d3ae;
+  text-transform: uppercase;
+}
+.section-header h1 {
+  color: white;
+}
+.submit-btn {
+  border: none;
+  width: 160px;
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(120deg, rgb(125, 221, 125), #1cc7c1);
+}

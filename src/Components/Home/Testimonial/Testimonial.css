@@ -1,0 +1,17 @@
+.testimonial {
+  border-color: transparent;
+}
+.testimonial .name {
+  color: #1cc7c1;
+  margin: 0px;
+}
+.testimonial small {
+  color: gray;
+}
+.testimonial .card-footer {
+  background: transparent;
+  border: 0;
+}
+.sjdf {
+  color: rgb(61, 226, 132);
+}
