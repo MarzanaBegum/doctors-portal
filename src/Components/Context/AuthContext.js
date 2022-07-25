@@ -26,20 +26,20 @@ export function AuthProvider({ children }) {
         setCurrentUser(newUser);
 
         // save user to the database
-        fetch("http://localhost:5000/user", {
+        fetch("https://murmuring-plains-03551.herokuapp.com/user", {
           method: "POST",
           headers: { "Content-type": "application/json" },
           body: JSON.stringify(newUser),
         })
           .then((res) => res.json())
-          .then((data) => {});
+          .then((data) => { });
 
         // send name to firebase after creation
         updateProfile(auth.currentUser, {
           displayName: name,
         })
-          .then(() => {})
-          .catch((error) => {});
+          .then(() => { })
+          .catch((error) => { });
       })
       .catch((error) => {
         console.log(error);

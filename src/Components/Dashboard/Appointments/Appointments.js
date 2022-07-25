@@ -13,7 +13,7 @@ const Appointments = () => {
     setSeletedDate(date);
   };
   useEffect(() => {
-    fetch("http://localhost:5000/appointmentsByDate", {
+    fetch("https://murmuring-plains-03551.herokuapp.com/appointmentsByDate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

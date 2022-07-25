@@ -14,7 +14,7 @@ const Doctor = ({ doctor }) => {
         />
       ) : (
         <img
-          src={`http://localhost:5000/${doctor.image}`}
+          src={`https://murmuring-plains-03551.herokuapp.com/${doctor.image}`}
           style={{ width: "100px", height: "100px" }}
           alt="doctorPic"
           className="img-fluid"
