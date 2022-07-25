@@ -11,6 +11,7 @@ import DashboardContainer from "./Components/Dashboard/DashboardContainer/Dashbo
 import Home from "./Components/Home/Home/Home";
 import Login from "./Components/Login/Login/Login";
 import PrivateRoute from "./Components/Login/PrivateRoute/PrivateRoute";
+import NotMatch from "./Components/NotMatch/NotMatch";
 import Signup from "./Components/Signup/Signup";
 
 function App() {
@@ -35,9 +36,11 @@ function App() {
             <Route path="patients" element={<AllPatients />} />
             <Route path="addDoctor" element={<AddDoctor />} />
             <Route path="prescriptions" element={<Prescriptions />} />
+            <Route path="*" element={<NotMatch />} />
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="*" element={<NotMatch />} />
         </Routes>
       </AuthProvider>
     </Router>
