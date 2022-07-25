@@ -7,7 +7,7 @@ const HeaderMain = () => {
       className="row g-0 d-flex align-items-center"
       style={{ height: "600px" }}
     >
-      <div className="col-md-4 col-sm-5  offset-md-1 me-3">
+      <div className="col-md-4 col-sm-6 col-12  offset-md-1 me-3">
         <h1 style={{ color: "#3A4256" }}>
           Your New Smile
           <br />

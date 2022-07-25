@@ -31,7 +31,7 @@ const BusinessInfo = () => {
     <section className="d-flex justify-content-center">
       <div className="row g-0 w-75">
         {infoData.map((info) => (
-          <Info info={info} />
+          <Info info={info} key={info.title} />
         ))}
       </div>
     </section>

@@ -4,7 +4,7 @@ import "./Info.css";
 
 const Info = ({ info }) => {
   return (
-    <div className="col-md-4 text-white">
+    <div className="col-md-4 col-sm-6 col-12 text-white ">
       <div
         className={`d-flex justify-content-center align-items-center info-container info-${info.background}`}
       >

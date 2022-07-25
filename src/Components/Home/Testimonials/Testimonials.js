@@ -52,7 +52,7 @@ const Testimonials = () => {
         </div>
         <div className="row g-0">
           {testimonialData.map((testimonial) => (
-            <div className="col-md-4">
+            <div className="col-md-4" key={testimonial.name}>
               <Testimonial testimonial={testimonial} />
             </div>
           ))}

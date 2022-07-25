@@ -4,13 +4,13 @@ import "./Testimonial.css";
 const Testimonial = ({ testimonial }) => {
   return (
     <div
-      class="card shadow text-center m-3 testimonial"
+      className="card shadow text-center m-3 testimonial"
       style={{ maxWidth: " 100%" }}
     >
-      <div class="card-body">
-        <p class="card-text">{testimonial.quote}</p>
+      <div className="card-body">
+        <p className="card-text">{testimonial.quote}</p>
       </div>
-      <div class="card-footer d-flex align-items-center">
+      <div className="card-footer d-flex align-items-center">
         <img className="mx-2" src={testimonial.img} alt="people" width="60" />
         <div>
           <p className="name">{testimonial.name}</p>

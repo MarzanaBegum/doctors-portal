@@ -27,18 +27,18 @@ const Navabar = () => {
               </a>
             </li>
             <li className="nav-item me-3">
-              <a className="nav-link" href="/about">
-                About
+              <a className="nav-link" href="/patients">
+                Patients
               </a>
             </li>
             <li className="nav-item me-3">
-              <a className="nav-link" href="/dentalServices">
-                Dental Services
+              <a className="nav-link" href="/dashboard">
+                Doctors Dashboard
               </a>
             </li>
             <li className="nav-item me-3">
-              <a className="nav-link text-white" href="/reviews">
-                Reviews
+              <a className="nav-link text-white" href="/admin">
+                Admin
               </a>
             </li>
             <li className="nav-item me-3">

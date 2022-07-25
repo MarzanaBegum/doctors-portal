@@ -1,5 +1,5 @@
 import React from "react";
-import FooterCol from "../FooterCol/FooterCol";
+import FooterCol from "../../Shared/FooterCol/FooterCol";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
