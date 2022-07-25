@@ -28,7 +28,7 @@ const Sidebar = () => {
       .then((data) => {
         setIsDoctor(data);
       });
-  }, []);
+  }, [currentUser.email]);
 
   return (
     <nav className="navbar navbar-expand-lg text-white navbar-container">

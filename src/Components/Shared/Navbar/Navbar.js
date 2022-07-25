@@ -32,7 +32,7 @@ const Navabar = () => {
               </a>
             </li>
             <li className="nav-item me-3">
-              <a className="nav-link" href="/dashboard">
+              <a className="nav-link " href="/dashboard">
                 Doctors Dashboard
               </a>
             </li>

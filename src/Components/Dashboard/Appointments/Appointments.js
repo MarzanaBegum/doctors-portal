@@ -24,7 +24,7 @@ const Appointments = () => {
       .then((data) => {
         setAppointments(data);
       });
-  }, [selectedDate]);
+  }, [selectedDate, currentUser.email]);
 
   return (
     <div
